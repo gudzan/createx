@@ -514,3 +514,53 @@ html, body {
     background: url("../images/icons/arrow-right-red.svg") 0 2px / 100% no-repeat;
     margin-left: 11px;
 }
+
+.cert {
+    margin-bottom: -46px;
+}
+
+.cert__inner {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.cert__inner::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -15px;
+    left: -190px;
+    width: 60px;
+    height: 60px;
+    background: url("../images/decor/4.svg") 0 0 no-repeat;
+}
+
+.cert__content {
+    margin-right: 30px;
+    max-width: 400px;
+}
+
+.cert__text {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.cert__logos {
+    display: flex;
+}
+
+.cert__logos-item {
+    margin-right: 40px;
+}
+
+.cert__image-box {
+    box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.16), 0px 30px 24px -10px rgba(154, 156, 165, 0.1), 0px 12px 10px -6px rgba(154, 156, 165, 0.08), 0px 4px 4px -4px rgba(30, 33, 44, 0.05);
+}
+
+.cert__image-box img {
+    width: 100%;
+    min-width: 500px;
+    height: 100%;
+    object-fit: contain;
+}
