@@ -19,7 +19,7 @@ index.html
 
 Короткая демонстрация
 <p align="center">
-<img width="600" src="./doc/demo.gif">
+<img width="800" src="./doc/demo.gif">
 </p>
 
 ## Реализация
